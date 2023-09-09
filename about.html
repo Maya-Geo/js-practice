@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <style>
+      .listitems {
+      color: red;
+    }
+    </style>
+   <head>
+<body>
+     
+
+	     <h1>About me</h1>
+        <ul>
+          <li>Nicknme: <span id="nick"></span></li>
+          <li>Favourite: <span id="fav"></span></li>
+          <li>Hometown: <span id="home"></span></li>
+     
+        </ul>
+  <script>
+    	 document.body.style.fontfamily = "Arial, sans-serif";
+
+
+       let nick = document.getElementById("nick");
+         nick.innerHTML = "Eve";
+
+
+        let fav = document.getElementById("fav");
+          fav.innerHTML = "blue";
+  
+
+
+      let home = document.getElementById("home");
+        home.innerHTML = "Abetifi";
+
+
+      let items = document.getElementsByTagName("li")
+      for (let i = 0; i < items.length; i++) {
+        items[i].className = 'listitem';
+      }
+
+
+      var image = document.getElementById("img");
+      image.setAttriute('src', './tail.jpg');
+      image.setAttriute('alt', 'hey./');
+      image.setAttriute('width', ./);
+      image.setAttriute('height', ./);
+
+      document.body.appendChild(image);
+
+  </script>
+</body>
+</html>
